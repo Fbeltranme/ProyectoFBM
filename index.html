@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="container">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+     <div class="container-titulo">
+        <span></span>
+         <h1>TRIBUTO A NINTENDO</h1>
+     </div>
+     <nav >
+      <button class="container-button1">pagina 1</button>
+      <button class="container-button2">pagina 2</button>
+      <button class="container-button3">pagina 3</button>
+      <button class="container-button4">
+        <img src="./boton compartir.png" alt="imagen de boton compartir"width="8">
+      </button>
+     </nav>
+    </header>
+
+    <main>
+
+      <section id = section-one>
+      <div class="section-one-title">
+        <h2>HISTORIA DE NINTENDO</h2>
+      </div>
+      <div>
+        <div  class="section-one-img">
+          <img src="./Corp nintendo.jfif" alt="imagen de la corporación nintendo" width="380" height="300">
+        </div>
+        <div class="section-one-info">
+            <h3>HISTORIA</h3>
+            <p>Nintendo es una empresa japonesa de videojuegos fundada en 1889 por Fusajiro Yamauchi como una 
+                compañía de fabricación de naipes. En la década de 1970, Nintendo comenzó a diversificar sus productos y se involucró en la industria de los videojuegos.
+
+                En 1983, lanzaron su consola de juegos Nintendo Entertainment System (NES), que fue un gran éxito en todo
+                el mundo y ayudó a establecer a Nintendo como una fuerza importante en la industria de los videojuegos.
+
+                En 1989, Nintendo lanzó la consola portátil Game Boy, que también fue un éxito de ventas. En los años 
+                siguientes, Nintendo continuó lanzando consolas y juegos populares, como la Super Nintendo Entertainment System (SNES), el Nintendo 64, el GameCube, la Wii y la Nintendo Switch.
+                
+                Además de sus consolas de juegos, Nintendo también ha desarrollado algunos de los juegos más populares de 
+                la historia, como Super Mario Bros., The Legend of Zelda, Pokemon, y Animal Crossing.
+            
+                Hoy en día, Nintendo es una de las empresas de videojuegos más grandes y exitosas del mundo, y ha tenido 
+                un impacto significativo en la cultura popular y en la forma en que la gente interactúa y disfruta 
+                de los videojuegos.</p>
+        </div>
+    </div>
+      </section>
+
+      <section id="section-two">
+        <div class="section-two">
+          <div class="section-two-video">
+            <video width="400" height="360" controls>
+              <source src="./Video CONSOLAS NINTENDO.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="section-two-img">
+            <h3>TOP CONSOLAS DE NINTENDO</h3>
+            <div class="img-container">
+              <div class="img-item">
+                <img src="./Nintendo DS.jpg" alt="imagen de la nintendo DS" width="100">
+                <h4>Nintendo DS</h4>
+              </div>
+              <div class="img-item">
+                <img src="./GameBOY.jpg" alt="imagen de la nintendo GameBoy" width="50">
+                <h4>Game Boy</h4>
+              </div>
+              <div class="img-item">
+                <img src="./WII.jpg" alt="imagen de la Wii" width="100">
+                <h4>Wii</h4>
+              </div>
+              <div class="img-item">
+                <img src="./Gameboy ADV.jpg" alt="imagen de la Gameboy Advance" width="100">
+                <h4>Game Boy Advance</h4>
+              </div>
+              <div class="img-item">
+                <img src="./Nintendo SWITCH.jpg" alt="imagen de la nintendo Switch" width="100">
+                <h4>Nintendo Switch</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-three">
+        <h3>Curiosidades de Nintendo</h3> 
+        <div class="section-three-datas"> 
+          <img src="./Curiosidades 1.jpg" alt="imagen de personajes de nintendo"> 
+          <div class="section-three-datas-text">
+            <p>Nintendo vendió originalmente juegos de cartas</p>
+          </div>
+        </div>
+        <div class="section-three-datas"> 
+          <div class="section-three-datas-text">
+            <p>Donkey Kong es el primer juego en el que un personaje puede saltar</p>
+          </div>
+          <img src="./Curiosidades 2.jpg" alt="imagen de Donk king kong retro"> 
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer-container">
+      <div class="feedback-container">
+        <form>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="comments">Comentarios:</label>
+          <textarea id="comments" name="comments" required></textarea>
+          <button type="submit">Enviar comentarios</button>
+        </form>
+        <p>Comparte tus comentarios:</p>
+        <button onclick="shareComments()">Compartir</button>
+      </div>
+    
+      <div class="author-info"> 
+        <div class="author-text">
+          <span>HECHO POR:</span>
+          <p>Felipe Beltran Mendez</p>
+        </div>
+        <img src="./Foto_UNAD.jpeg" alt="Foto de Felipe B" width="100">
+      </div>
+    </footer>
+
+</body>
+</html>
