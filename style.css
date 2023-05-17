@@ -75,7 +75,7 @@ button.container-button4 {
 section#section-one {
   flex-direction: row;
   text-align: center;
-  height: 65vh;
+  height: 75vh;
   background-color: #fcf6f6;
 }
 
@@ -368,6 +368,6 @@ div.img-item h4 {
     margin-top: 20px;
   }
   section#section-one {
-    height: 50vh;
+    height: 55vh;
   }
 }
